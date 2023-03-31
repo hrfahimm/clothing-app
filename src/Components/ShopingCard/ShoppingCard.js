@@ -30,7 +30,7 @@ const ShoppingCard = () => {
 
 	return (
 		<div className="cards">
-			<div>
+			<div className="shopping-text">
 				<h1>Our Populer Products</h1>
 			</div>
 			<div className="product-container">
