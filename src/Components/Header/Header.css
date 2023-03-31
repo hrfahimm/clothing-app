@@ -1,0 +1,26 @@
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-icon {
+	width: 50px;
+	margin: 10px;
+}
+.nav-icon img {
+	width: 100%;
+}
+.link {
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 600;
+	margin-right: 50px;
+	color: black;
+	border: 2px solid rgb(39, 206, 214);
+	text-decoration: none;
+}
+.link:hover {
+	/* color: aqua; */
+	border: 2px solid rgb(0, 0, 0);
+}

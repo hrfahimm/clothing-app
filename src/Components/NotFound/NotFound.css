@@ -1,0 +1,21 @@
+.error {
+	text-align: center;
+	margin: 75px;
+}
+.img {
+	width: 300px;
+}
+.btn-error {
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: 600;
+
+	color: black;
+	border: 2px solid rgb(39, 206, 214);
+	text-decoration: none;
+}
+.btn-error:hover {
+	/* color: aqua; */
+	border: 2px solid rgb(0, 0, 0);
+}

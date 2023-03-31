@@ -1,0 +1,21 @@
+.home-slider {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	/* width: auto; */
+	/* height: 470px; */
+	background-color: rgba(104, 104, 104, 0.234);
+}
+.slide-text {
+	width: 500px;
+	height: 470px;
+}
+.slide-img {
+	width: 700px;
+	height: 470px;
+	align-items: center;
+}
+.slide-img img {
+	width: 100%;
+}

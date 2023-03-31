@@ -1,0 +1,32 @@
+.product {
+	border: 2px solid black;
+
+	border-radius: 10px;
+	height: 500px;
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+}
+.product-img {
+	width: 200px;
+	height: 200px;
+}
+.product-img img {
+	width: 100%;
+}
+.product-name {
+	color: rgb(123, 8, 218);
+	font-weight: 400;
+}
+.btn-regular {
+	background-color: rgb(117, 209, 189);
+	width: 150px;
+	height: 30px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-regular:hover {
+	background-color: rgb(40, 219, 180);
+	border: 1px solid black;
+}
