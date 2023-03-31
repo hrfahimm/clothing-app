@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 import {addToDb} from "../../utilities/fackdb";
 import Card from "../Card/Card";
 import "./ShoppingCard.css";
@@ -40,6 +41,24 @@ const ShoppingCard = () => {
 						key={product.key}
 						product={product}></Card>
 				))}
+			</div>
+			<div
+				style={{
+					display: "flex",
+					justifyContent: "space-evenly",
+					alignItems: "center",
+					margin: "50px",
+				}}>
+				<div>
+					<Link className="btn-error" to="/review">
+						Review Order
+					</Link>
+				</div>
+				<div>
+					<Link className="btn-error" to="/shop">
+						More Items
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
