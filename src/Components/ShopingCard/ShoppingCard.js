@@ -50,12 +50,12 @@ const ShoppingCard = () => {
 					margin: "50px",
 				}}>
 				<div>
-					<Link className="btn-error" to="/review">
+					<Link className="blur-btn" to="/review">
 						Review Order
 					</Link>
 				</div>
 				<div>
-					<Link className="btn-error" to="/shop">
+					<Link className="blur-btn" to="/shop">
 						More Items
 					</Link>
 				</div>

@@ -4,7 +4,6 @@ const Card = (props) => {
 	const {img, name, price, seller, ratings, stock} = props.product;
 	return (
 		<div>
-			
 			<div className="product">
 				<div className="product-img">
 					<img src={img} alt="" />
@@ -19,7 +18,7 @@ const Card = (props) => {
 					<p>{ratings}</p>
 					<button
 						onClick={() => props.handleAddToCart(props.product)}
-						className="handle-btn">
+						className="rgb-btn">
 						add to cart
 					</button>
 				</div>

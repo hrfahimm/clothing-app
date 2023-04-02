@@ -25,7 +25,6 @@ const OrderReview = () => {
 		<div>
 			<div className="shop-container">
 				<div className="product-container">
-					<h3>Our Products </h3>
 					{cart.map((product) => (
 						<ReviewItem
 							product={product}
@@ -36,7 +35,7 @@ const OrderReview = () => {
 				</div>
 				<div className="cart-container">
 					<Cart cart={cart}>
-						<button onClick={handlePleaceOrder} className="btn-regular">
+						<button onClick={handlePleaceOrder} className="blur-btn">
 							Please Order
 						</button>
 					</Cart>

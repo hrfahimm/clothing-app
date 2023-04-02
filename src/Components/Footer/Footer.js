@@ -10,16 +10,16 @@ const Footer = () => {
 						<h4>company</h4>
 						<ul>
 							<li>
-								<a  >about us</a>
+								<a>about us</a>
 							</li>
 							<li>
-								<a  >our services</a>
+								<a>our services</a>
 							</li>
 							<li>
-								<a  >privacy policy</a>
+								<a>privacy policy</a>
 							</li>
 							<li>
-								<a  >affiliate program</a>
+								<a>affiliate program</a>
 							</li>
 						</ul>
 					</div>
@@ -27,17 +27,35 @@ const Footer = () => {
 						<h4>get help</h4>
 						<ul>
 							<li>
-								<a  >FAQ</a>
+								<a>FAQ</a>
 							</li>
 							<li>
-								<a  >shipping</a>
+								<a>shipping</a>
 							</li>
 							<li>
-								<a  >returns</a>
+								<a>returns</a>
 							</li>
-							 
+
 							<li>
-								<a  >payment options</a>
+								<a>payment options</a>
+							</li>
+						</ul>
+					</div>
+
+					<div className="footer-col">
+						<h4>follow us</h4>
+						<ul>
+							<li>
+								<a>FaceBook</a>
+							</li>
+							<li>
+								<a>Whatsapp</a>
+							</li>
+							<li>
+								<a>Instagram</a>
+							</li>
+							<li>
+								<a>Twittew</a>
 							</li>
 						</ul>
 					</div>
@@ -45,35 +63,18 @@ const Footer = () => {
 						<h4>online shop</h4>
 						<ul>
 							<li>
-								<a  >watch</a>
+								<a>watch</a>
 							</li>
 							<li>
-								<a  >bag</a>
+								<a>bag</a>
 							</li>
 							<li>
-								<a  >shoes</a>
+								<a>shoes</a>
 							</li>
 							<li>
-								<a  >dress</a>
+								<a>dress</a>
 							</li>
 						</ul>
-					</div>
-					<div className="footer-col">
-						<h4>follow us</h4>
-						<div className="social-links">
-							<a  >
-								<i className="fab fa-facebook-f"></i>
-							</a>
-							<a  >
-								<i className="fab fa-twitter"></i>
-							</a>
-							<a  >
-								<i className="fab fa-instagram"></i>
-							</a>
-							<a  >
-								<i className="fab fa-linkedin-in"></i>
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
